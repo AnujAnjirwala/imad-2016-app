@@ -14,6 +14,20 @@ var articleOne = {
             <p>This is some personal information.This is some personal information.This is some personal information.</p>`
 };
 
+var articleTwo = {
+    title : 'Article Two || Anuj Anjirwala',
+    heading : 'This is Article Two',
+    date : 'Jan 2 2017',
+    content : `<p>Hello, welcome to second article.</p>`
+};
+
+var articleThree = {
+    title : 'Article Three || Anuj Anjirwala',
+    heading : 'Now you are on Article Three',
+    date : 'Jan 3 2017',
+    content : `<p>Hello, welcome to third article.Wish You a very Happy New Year.......</p>`
+};
+
 function createTemplate(data)   {
     var title = data.title;
     var date = data.date;
