@@ -18,3 +18,10 @@ img.onclick = function()    {
    // img.style.marginLeft = '100px';
    var interval = setInterval(moveRight, 50);
 };
+
+var counter = 0;
+var c=document.getElementById('counter');
+var span=document.getElementById('count');
+c.onclick = function()  {
+    span.innerHTML=counter + 1;
+};
