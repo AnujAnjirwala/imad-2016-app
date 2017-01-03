@@ -21,7 +21,9 @@ img.onclick = function()    {
 
 var counter = 0;
 var c=document.getElementById('counter');
-var span=document.getElementById('count');
+
 c.onclick = function()  {
-    span.innerHTML=counter + 1;
+    counter = counter + 1;
+    var span=document.getElementById('count');
+    span.innerHTML='counter';
 };
