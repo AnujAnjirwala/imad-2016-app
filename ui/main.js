@@ -36,4 +36,8 @@ c.onclick = function()  {
             }
         }  
       };
+      //Make the request
+      request.open('GET', 'http://anujanjirwala.imad.hasura-app.io/counter', true);
+      request.send(null);
 };
+
