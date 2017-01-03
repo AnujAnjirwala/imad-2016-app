@@ -4,6 +4,13 @@ console.log('Loaded!');
 //var ele=document.getElementById('maintext');
 //ele.innerHTML='This is new Text!';
 
+
+
+
+
+
+
+
 //move img
 var img=document.getElementById('madi');
 
@@ -18,6 +25,11 @@ img.onclick = function()    {
    // img.style.marginLeft = '100px';
    var interval = setInterval(moveRight, 50);
 };
+
+
+
+
+
 
 //var counter = 0;
 var c=document.getElementById('counter');
