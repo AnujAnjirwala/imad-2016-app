@@ -34,7 +34,6 @@ img.onclick = function()    {
 //var counter = 0;
 var c=document.getElementById('counter');
 c.onclick = function()  {
-//    counter = counter + 1;
     //create a request
       var request = new XMLHttpRequest();
       
@@ -43,7 +42,7 @@ c.onclick = function()  {
         if(request.readystate === XMLHttpRequest.DONE)    {
             if(request.status === 200)  {
                 var counter = request.responseText;
-                var spa=document.getElementById('count');
+                var spa = document.getElementById('count');
                 spa.innerHTML = counter.toString();
             }
         }  
