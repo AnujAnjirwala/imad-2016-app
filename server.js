@@ -75,7 +75,7 @@ app.get('/counter', function(req, res) {
 
 var names=[];
 // app.get('/submit-name/:name', function(req,res)   {
-app.get('/submit-name', function(req,res)   {
+app.get('/submit-name', function(req,res)   {   //URL : anujanjirwala.imad.hasura-app.io/submit-name?name=xxxxx
    
     //get the name from the request
     var name = req.query.name;   //TODO
